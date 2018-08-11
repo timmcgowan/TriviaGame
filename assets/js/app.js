@@ -29,7 +29,7 @@ function endGame(){
     console.log("correct qty is " + correct);
     if (correct >= win){
         _message = $("<h1>").html("You are a winner!")
-        _par = $("<p>").text("You are a Rockstart! Please play again.");
+        _par = $("<p>").text("You are a Rockstar! Please play again.");
     } else {
         _message = $("<h1>").html("You have lost!")
         _par = $("<p>").text("You most score at least " + win + " to win. Please try again.");
