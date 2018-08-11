@@ -9,15 +9,27 @@
 
 .start-div {
     position: fixed;
-    bottom: 120px;
+    bottom: 160px;
     right: 80px;
     float: right;    
 }
 #message {
     font-size: 16px;
+    max-width: 700px;
 }
 #message h1 {
     font-size: 24px;
+}
+
+#scorediv {
+    position: relative;
+    float: center; 
+}
+#scorediv h1{
+    font-size: 24px;
+}
+#scorediv p{
+    font-size: 16px;
 }
 
 .choices:hover { 

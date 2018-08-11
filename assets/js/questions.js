@@ -17,7 +17,7 @@ var qObj = [{
     options: ["Bald Eagle","Beagle","Great Dane","English Bull Dog"],
     answer: "3"
 },{
-    question:"The U.S. Marine Corps Reserve founded and operate what non-profit organization ?",
+    question:"The U.S. Marine Corps Reserve operates which non-profit organization?",
     options: ["Toys for Tots","Cancer Figthers of US","Retired Vets of US","Animal protectures of USA"],
     answer: "0"
 }];
