@@ -32,7 +32,7 @@ function endGame(){
         _par = $("<p>").text("You are a Rockstart! Please play again.");
     } else {
         _message = $("<h1>").html("You have lost!")
-        _par = $("<p>").text("You most score atleast " + win + " to win. Please try again.");
+        _par = $("<p>").text("You most score at least " + win + " to win. Please try again.");
     }
     $("#message").html(_message).append(_par);
     $("#start").text("Play Again?").fadeIn();
