@@ -1,13 +1,105 @@
-.nav-img{
-    display: block;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    background: url('./assets/img/smalllogo.png') no-repeat;
-    width: auto; /* Width of new image */
-    height: 30; /* Height of new image */
+.nav-img {
     padding-left: 10px; /* Equal to width of new image */
 }
 
 .navbar-brand {
-    text-align: left
+    text-align: left;
+    float: left;
 }
+
+.start-div {
+    position: fixed;
+    bottom: 120px;
+    right: 80px;
+    float: right;    
+}
+.message {
+    width: 800px;
+    float: left;
+    padding: 0px;
+    padding-left: 20px;
+    padding-top: 0px
+}
+#start {
+    border: 0;
+    background: transparent;
+    box-sizing: border-box;
+    width: 0;
+    height: 30px;
+    border-color: transparent transparent transparent green;
+    transition: 100ms all ease;
+    cursor: pointer;
+    border-style: solid;
+    border-width: 22px 0 22px 40px;
+    vertical-align: top;
+  }
+
+.timer-green {
+    text-align: center;
+    float: center;
+    font-size: 28px;
+    color: green;
+}
+
+.timer-red {
+    text-align: center;
+    float: center;
+    font-size: 29px;
+    color: red;
+    -webkit-animation: 1s blink step-end infinite;
+    -moz-animation: 1s blink step-end infinite;
+    -ms-animation: 1s blink step-end infinite;
+    -o-animation: 1s blink step-end infinite;
+    animation: 1s blink step-end infinite;
+}
+.timer-end {
+    text-align: center;
+    float: center;
+    font-size: 30px;
+    color: red;
+}
+
+@keyframes blink {
+    from, to {
+      color: transparent;
+    }
+    50% {
+      color: red;
+    }
+  }
+  
+  @-moz-keyframes blink {
+    from, to {
+      color: transparent;
+    }
+    50% {
+      color: red;
+    }
+  }
+  
+  @-webkit-keyframes blink {
+    from, to {
+      color: transparent;
+    }
+    50% {
+      color: red;
+    }
+  }
+  
+  @-ms-keyframes blink {
+    from, to {
+      color: transparent;
+    }
+    50% {
+      color: red;
+    }
+  }
+  
+  @-o-keyframes blink {
+    from, to {
+      color: transparent;
+    }
+    50% {
+      color: red;
+    }
+  }
