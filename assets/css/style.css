@@ -1,0 +1,137 @@
+body {
+  background-color:#212529;
+  background-image:url(../img/map-image.png);
+  background-repeat:no-repeat;
+  background-position: center middle;
+}
+
+
+
+#masthead {
+  /* Positioning */
+  margin: 0 0 0 0;
+  color: #fff;
+}
+
+#gamehead h1{
+  font-size: 22px;
+  color: #fff;
+}
+
+#gamearea{  
+  /* Positioning */
+  margin: 5px 5px 5px 5px;
+}
+
+div {
+  /* border: 5px solid green; */
+  padding: 8px;
+  margin: 8px;
+  float: left;
+}
+
+.gamearea{  
+  /* Positioning */
+  float: left;
+}
+.gamearea div{  
+  /* Positioning */
+  border: 3px solid orange;
+  float: left;
+}
+.gamearea p{
+  color:white;
+  font-size: 18px;
+}
+span.emoji{
+  padding-left: 3mm;
+  padding-right: 3mm;
+  font-size: 30px;
+  float: center;
+}
+#vs{
+  padding-left: 0;
+  padding-right: 3mm;
+  border: none;
+  text-align: right;
+  vertical-align: middle;
+  height: 140px;
+  width: 70px;
+  float: center;
+}
+
+#characters {
+  /* Positioning */
+  /* Typography */
+  color: #fff;
+  height: 245px;
+  width: 640px;
+}
+
+#characters span p{
+  float: left;
+}
+
+.character-img {
+  width: 120px;
+  height: 120px;
+  padding-left: 5px;
+  padding-right: 5px;
+  float: left;
+  margin: 5px 5px 5px 5px;
+}
+
+.champion-img {
+  width: 120px;
+  height: 120px;
+  padding-left: 5px;
+  padding-right: 5px;
+  float: left;
+}
+
+.opponent-img {
+  width: 120px;
+  height: 120px;
+  padding-left: 5px;
+  padding-right: 5px;
+  float: right;
+}
+
+.contestant-img {
+  width: 120px;
+  height: 120px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.character-name {
+  margin: 5px 5px 5px 5px;
+  color: #fff;
+  text-align: left;
+  vertical-align: top;
+  text-transform: capitalize;
+  line-height: 18px;
+  font-size: 14px;
+}
+
+.character-img p {
+  width: auto;
+  height: 30px;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: text-bottom;
+}
+.health {
+  /* Positioning */
+  margin: 5px 5px 5px 5px;
+  /* Typography */
+  color: #fff;
+  text-align: center;
+  vertical-align: text-bottom;
+  line-height: 12px;
+  font-size: 20px;
+}
+.jumbotron {
+  margin-top: 15px;
+  padding-top: 5em;
+ }
