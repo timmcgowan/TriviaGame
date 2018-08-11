@@ -20,4 +20,25 @@ var qObj = [{
     question:"The U.S. Marine Corps Reserve operates which non-profit organization?",
     options: ["Toys for Tots","Cancer Figthers of US","Retired Vets of US","Animal protectures of USA"],
     answer: "0"
-}];
+},{
+    question:"What reading list is published every year for U.S. Marines?",
+    options: ["oprah's book Club","Commandant's Professional Reading List","Commanders Annual Reading List","Reading for Marines"],
+    answer: "1"
+},{
+    question:"Who was the 13th Commandant of the Marine Corps?",
+    options: ["Samuel Nicholas","George Barnett","John A. Lejeune","Michael Hagee"],
+    answer: "2"
+},{
+    question:"What is the name of the Marine Corps mascot?",
+    options: ["Jarhead","Oscar","Sam","Chesty"],
+    answer: "3"
+},{
+    question:"Where to female Marines attend Bootcamp?",
+    options: ["MCRD Parris Island","MCRD San Diego","Camp Lejeune","Ft Jackson"],
+    answer: "0"
+},{
+    question:"Who was the 1st Commandant of the Marine Corps?",
+    options: ["Samuel Nicholas","George Barnett","John A. Lejeune","Michael Hagee"],
+    answer: "0"
+}
+];

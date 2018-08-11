@@ -5,7 +5,7 @@ Prototype game, that tests your knowledge around the US Marine Corps, and a few 
 
 // Globals
 var gameover; // To track when game ends
-var timerSeconds = 30; // configurable "seconds"
+var timerSeconds = 45; // configurable "seconds"
 var correct;  // Track number of correct answers
 var incorrect; // Track number of incorrect answers
 var win; // no... 
