@@ -6,7 +6,7 @@ var qObj = [{
     answer: "2"
 },{
     question:"Where was the U.S. Marine Corps started?",
-    options: ["Philadelphia","Washing DC","New York","England"],
+    options: ["Philadelphia","Washington DC","New York","England"],
     answer: "0"
 },{
     question:"What is the U.S. Marine Corps Motto ?",
@@ -22,7 +22,7 @@ var qObj = [{
     answer: "0"
 },{
     question:"What reading list is published every year for U.S. Marines?",
-    options: ["oprah's book Club","Commandant's Professional Reading List","Commanders Annual Reading List","Reading for Marines"],
+    options: ["Oprah's book Club","Commandant's Professional Reading List","Commanders Annual Reading List","Reading for Marines"],
     answer: "1"
 },{
     question:"Who was the 13th Commandant of the Marine Corps?",
