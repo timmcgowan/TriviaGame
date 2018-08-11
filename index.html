@@ -4,16 +4,17 @@
   <head>
     <meta charset="UTF-8">
     <title>Trivia Game!</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script> 
-    <script src="assets/js/app.js"></script> 
-
     <!-- Slider Style  -->
     <link href="assets/css/half-slider.css" rel="stylesheet">
-    <!-- Trivia Style-->
-    <link rel="stylesheet" type="text/css" href="assets/css/trivia.css">
+    <!-- Trivia Style & JS -->
+    <link href="assets/css/trivia.css" rel="stylesheet" type="text/css">
+    <script src="assets/js/questions.js"></script> 
+    <script src="assets/js/app.js"></script> 
+
   </head>
 
   <body>
@@ -70,11 +71,10 @@
 
     <!-- Page Content -->
     <section class="py-5">
-      <div class="container-fluid">
+      <div id="message" class="container-fluid">
         <h1>Ready to test your Marine Corp Knowledge?</h1>
         <p>Click Start to Begin!</p>
       </div>
-
       <div class="start-div">
           <button id="start">Start</button>
       </div>

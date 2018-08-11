@@ -13,13 +13,17 @@
     right: 80px;
     float: right;    
 }
-.message {
-    width: 800px;
-    float: left;
-    padding: 0px;
-    padding-left: 20px;
-    padding-top: 0px
+#message {
+    font-size: 16px;
 }
+#message h1 {
+    font-size: 24px;
+}
+
+.choices:hover { 
+    background-color: yellow;
+}
+
 #start {
     border: 0;
     background: transparent;
@@ -44,19 +48,13 @@
 .timer-red {
     text-align: center;
     float: center;
-    font-size: 29px;
+    font-size: 30px;
     color: red;
     -webkit-animation: 1s blink step-end infinite;
     -moz-animation: 1s blink step-end infinite;
     -ms-animation: 1s blink step-end infinite;
     -o-animation: 1s blink step-end infinite;
     animation: 1s blink step-end infinite;
-}
-.timer-end {
-    text-align: center;
-    float: center;
-    font-size: 30px;
-    color: red;
 }
 
 @keyframes blink {
