@@ -33,7 +33,7 @@ var qObj = [{
     options: ["Jarhead","Oscar","Sam","Chesty"],
     answer: "3"
 },{
-    question:"Where to female Marines attend Bootcamp?",
+    question:"Where do female Marines attend bootcamp?",
     options: ["MCRD Parris Island","MCRD San Diego","Camp Lejeune","Ft Jackson"],
     answer: "0"
 },{
